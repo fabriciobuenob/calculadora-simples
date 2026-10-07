@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json"/>
+    <meta name="theme-color" content="#1c1c1c"/>
+    <link rel="apple-touch-icon" href="icons/icon-192.jpg"/>
+
+</head>
+
+<body>
+    <div class="calculadora">
+        <!-- VISOR -->
+        <div class="visor" id="visor">0</div>
+        <!-- TECLADO -->
+        <div class="teclado">
+            <button class="tecla op" data-operador="+">+</button>
+            <button class="tecla op" data-operador="-">-</button>
+            <button class="tecla op" data-operador="*">×</button>
+            <button class="tecla op divisao" data-operador="/">÷</button>
+            <button class="tecla numero" data-numero="7">7</button>
+            <button class="tecla numero" data-numero="8">8</button>
+            <button class="tecla numero" data-numero="9">9</button>
+            <button class="tecla igual" id="btn-igual">=</button>
+            <button class="tecla numero" data-numero="4">4</button>
+            <button class="tecla numero" data-numero="5">5</button>
+            <button class="tecla numero" data-numero="6">6</button>
+            <button class="tecla numero" data-numero="1">1</button>
+            <button class="tecla numero" data-numero="2">2</button>
+            <button class="tecla numero" data-numero="3">3</button>
+            <button class="tecla numero" data-numero="0">0</button>
+            <button class="tecla numero" data-numero=".">.</button>
+            <button class="tecla limpar" id="btn-limpar">AC</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
